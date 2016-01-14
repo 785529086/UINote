@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5QW-zK-Uw3">
+                                <rect key="frame" x="116" y="313" width="143" height="40"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Jgd-wv-CgX"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="8.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="q4l-6k-Zu3">
+                                <rect key="frame" x="63" y="421" width="248" height="134"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="q4l-6k-Zu3" secondAttribute="height" multiplier="4:3" constant="69.333333333333343" id="QGn-XZ-Rqs"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yi5-Zj-sjH">
+                                <rect key="frame" x="116" y="120" width="143" height="143"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="yi5-Zj-sjH" secondAttribute="height" multiplier="1:1" id="my5-HB-kUs"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="7.jpg"/>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="q4l-6k-Zu3" firstAttribute="top" secondItem="5QW-zK-Uw3" secondAttribute="bottom" constant="68" id="0XT-qx-pLL"/>
+                            <constraint firstItem="5QW-zK-Uw3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="100" id="2Td-JA-gmL"/>
+                            <constraint firstItem="yi5-Zj-sjH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="3FL-sH-AeQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5QW-zK-Uw3" secondAttribute="trailing" constant="100" id="7pX-BB-jBC"/>
+                            <constraint firstItem="yi5-Zj-sjH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="100" id="8Ww-DG-Fk4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="q4l-6k-Zu3" secondAttribute="trailing" constant="48" id="9VN-8v-oVs"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yi5-Zj-sjH" secondAttribute="trailing" constant="100" id="ISF-mr-XDY"/>
+                            <constraint firstItem="5QW-zK-Uw3" firstAttribute="top" secondItem="yi5-Zj-sjH" secondAttribute="bottom" constant="50" id="Nzy-m6-a4p"/>
+                            <constraint firstItem="q4l-6k-Zu3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="47" id="bdo-7h-36R"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="button" destination="yi5-Zj-sjH" id="09L-RQ-mNd"/>
+                        <outlet property="imageView" destination="q4l-6k-Zu3" id="V50-8U-dqq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="382.5" y="408.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="7.jpg" width="500" height="487"/>
+        <image name="8.jpg" width="1024" height="640"/>
+    </resources>
+</document>

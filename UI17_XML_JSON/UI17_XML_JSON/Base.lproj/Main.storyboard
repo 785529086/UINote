@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="XML解析" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3iJ-CQ-43q">
+                                <rect key="frame" x="66" y="70" width="243" height="50"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="jeW-06-LKd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qE1-8O-vVj">
+                                <rect key="frame" x="66" y="170" width="243" height="50"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.70545075359999998" green="0.91867236200000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="rFX-7U-j7X"/>
+                                </constraints>
+                                <state key="normal" title="SAX方式解析"/>
+                                <connections>
+                                    <action selector="handleSAX:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oca-x7-I63"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="djK-La-40F">
+                                <rect key="frame" x="66" y="470" width="243" height="50"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.70545075359999998" green="0.91867236200000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="yfU-PV-c40"/>
+                                </constraints>
+                                <state key="normal" title="JSON解析"/>
+                                <connections>
+                                    <action selector="handleJSON:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QOk-6C-mP7"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JSON解析" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BYm-JF-A3U">
+                                <rect key="frame" x="66" y="370" width="243" height="50"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="ymw-Mq-SeK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xqL-bW-wGW">
+                                <rect key="frame" x="66" y="270" width="243" height="50"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.70545075359999998" green="0.91867236200000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Ys2-Wm-5w9"/>
+                                </constraints>
+                                <state key="normal" title="DOM方式解析">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="handleDOM:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WBD-nF-weF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="BYm-JF-A3U" secondAttribute="trailing" constant="50" id="0fZ-Fx-q5R"/>
+                            <constraint firstItem="xqL-bW-wGW" firstAttribute="top" secondItem="qE1-8O-vVj" secondAttribute="bottom" constant="50" id="4D6-eo-aKz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qE1-8O-vVj" secondAttribute="trailing" constant="50" id="8E3-wZ-ZMY"/>
+                            <constraint firstItem="djK-La-40F" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="F8A-ve-to7"/>
+                            <constraint firstItem="3iJ-CQ-43q" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="HJ6-kE-j60"/>
+                            <constraint firstItem="qE1-8O-vVj" firstAttribute="top" secondItem="3iJ-CQ-43q" secondAttribute="bottom" constant="50" id="LBm-oy-qma"/>
+                            <constraint firstItem="3iJ-CQ-43q" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="R77-4E-Yw1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xqL-bW-wGW" secondAttribute="trailing" constant="50" id="WU0-0A-Ift"/>
+                            <constraint firstItem="BYm-JF-A3U" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="WVF-bl-NzM"/>
+                            <constraint firstItem="BYm-JF-A3U" firstAttribute="top" secondItem="xqL-bW-wGW" secondAttribute="bottom" constant="50" id="b2I-ih-3JF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3iJ-CQ-43q" secondAttribute="trailing" constant="50" id="c1N-Js-n38"/>
+                            <constraint firstItem="xqL-bW-wGW" firstAttribute="centerY" secondItem="qE1-8O-vVj" secondAttribute="centerY" id="sMv-P3-oRA"/>
+                            <constraint firstItem="djK-La-40F" firstAttribute="top" secondItem="BYm-JF-A3U" secondAttribute="bottom" constant="50" id="t7z-wx-4xH"/>
+                            <constraint firstItem="xqL-bW-wGW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="tMF-Mo-hQN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="djK-La-40F" secondAttribute="trailing" constant="50" id="tnJ-UW-EMp"/>
+                            <constraint firstItem="qE1-8O-vVj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="tph-IA-rfq"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="sMv-P3-oRA"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="339.5" y="418.5"/>
+        </scene>
+    </scenes>
+</document>
