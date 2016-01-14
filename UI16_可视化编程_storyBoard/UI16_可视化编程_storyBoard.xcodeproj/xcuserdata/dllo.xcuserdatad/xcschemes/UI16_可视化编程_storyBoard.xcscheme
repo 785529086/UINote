@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0710"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "49148B3B1C3A48D90069A8B8"
+               BuildableName = "UI16_&#x53ef;&#x89c6;&#x5316;&#x7f16;&#x7a0b;_storyBoard.app"
+               BlueprintName = "UI16_&#x53ef;&#x89c6;&#x5316;&#x7f16;&#x7a0b;_storyBoard"
+               ReferencedContainer = "container:UI16_&#x53ef;&#x89c6;&#x5316;&#x7f16;&#x7a0b;_storyBoard.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "49148B541C3A48D90069A8B8"
+               BuildableName = "UI16_&#x53ef;&#x89c6;&#x5316;&#x7f16;&#x7a0b;_storyBoardTests.xctest"
+               BlueprintName = "UI16_&#x53ef;&#x89c6;&#x5316;&#x7f16;&#x7a0b;_storyBoardTests"
+               ReferencedContainer = "container:UI16_&#x53ef;&#x89c6;&#x5316;&#x7f16;&#x7a0b;_storyBoard.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "49148B5F1C3A48D90069A8B8"
+               BuildableName = "UI16_&#x53ef;&#x89c6;&#x5316;&#x7f16;&#x7a0b;_storyBoardUITests.xctest"
+               BlueprintName = "UI16_&#x53ef;&#x89c6;&#x5316;&#x7f16;&#x7a0b;_storyBoardUITests"
+               ReferencedContainer = "container:UI16_&#x53ef;&#x89c6;&#x5316;&#x7f16;&#x7a0b;_storyBoard.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "49148B3B1C3A48D90069A8B8"
+            BuildableName = "UI16_&#x53ef;&#x89c6;&#x5316;&#x7f16;&#x7a0b;_storyBoard.app"
+            BlueprintName = "UI16_&#x53ef;&#x89c6;&#x5316;&#x7f16;&#x7a0b;_storyBoard"
+            ReferencedContainer = "container:UI16_&#x53ef;&#x89c6;&#x5316;&#x7f16;&#x7a0b;_storyBoard.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "49148B3B1C3A48D90069A8B8"
+            BuildableName = "UI16_&#x53ef;&#x89c6;&#x5316;&#x7f16;&#x7a0b;_storyBoard.app"
+            BlueprintName = "UI16_&#x53ef;&#x89c6;&#x5316;&#x7f16;&#x7a0b;_storyBoard"
+            ReferencedContainer = "container:UI16_&#x53ef;&#x89c6;&#x5316;&#x7f16;&#x7a0b;_storyBoard.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "49148B3B1C3A48D90069A8B8"
+            BuildableName = "UI16_&#x53ef;&#x89c6;&#x5316;&#x7f16;&#x7a0b;_storyBoard.app"
+            BlueprintName = "UI16_&#x53ef;&#x89c6;&#x5316;&#x7f16;&#x7a0b;_storyBoard"
+            ReferencedContainer = "container:UI16_&#x53ef;&#x89c6;&#x5316;&#x7f16;&#x7a0b;_storyBoard.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

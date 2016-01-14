@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4991322A1C3B523300607DB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 499132291C3B523300607DB0 /* main.m */; };
+		4991322D1C3B523300607DB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4991322C1C3B523300607DB0 /* AppDelegate.m */; };
+		499132301C3B523300607DB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4991322F1C3B523300607DB0 /* ViewController.m */; };
+		499132331C3B523300607DB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499132311C3B523300607DB0 /* Main.storyboard */; };
+		499132351C3B523300607DB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 499132341C3B523300607DB0 /* Assets.xcassets */; };
+		499132381C3B523300607DB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499132361C3B523300607DB0 /* LaunchScreen.storyboard */; };
+		499132431C3B523300607DB0 /* UI07_ScrollView_inset__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 499132421C3B523300607DB0 /* UI07_ScrollView_inset__Tests.m */; };
+		4991324E1C3B523300607DB0 /* UI07_ScrollView_inset__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4991324D1C3B523300607DB0 /* UI07_ScrollView_inset__UITests.m */; };
+		4991325C1C3B53EE00607DB0 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4991325B1C3B53EE00607DB0 /* 1.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4991323F1C3B523300607DB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4991321D1C3B523300607DB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 499132241C3B523300607DB0;
+			remoteInfo = "UI07_ScrollView的inset属性";
+		};
+		4991324A1C3B523300607DB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4991321D1C3B523300607DB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 499132241C3B523300607DB0;
+			remoteInfo = "UI07_ScrollView的inset属性";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		499132251C3B523300607DB0 /* UI07_ScrollView的inset属性.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI07_ScrollView的inset属性.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		499132291C3B523300607DB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4991322B1C3B523300607DB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4991322C1C3B523300607DB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4991322E1C3B523300607DB0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4991322F1C3B523300607DB0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		499132321C3B523300607DB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		499132341C3B523300607DB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		499132371C3B523300607DB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		499132391C3B523300607DB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4991323E1C3B523300607DB0 /* UI07_ScrollView的inset属性Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI07_ScrollView的inset属性Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		499132421C3B523300607DB0 /* UI07_ScrollView_inset__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UI07_ScrollView_inset__Tests.m; sourceTree = "<group>"; };
+		499132441C3B523300607DB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		499132491C3B523300607DB0 /* UI07_ScrollView的inset属性UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI07_ScrollView的inset属性UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4991324D1C3B523300607DB0 /* UI07_ScrollView_inset__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UI07_ScrollView_inset__UITests.m; sourceTree = "<group>"; };
+		4991324F1C3B523300607DB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4991325B1C3B53EE00607DB0 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		499132221C3B523300607DB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4991323B1C3B523300607DB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499132461C3B523300607DB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4991321C1C3B523300607DB0 = {
+			isa = PBXGroup;
+			children = (
+				499132271C3B523300607DB0 /* UI07_ScrollView的inset属性 */,
+				499132411C3B523300607DB0 /* UI07_ScrollView的inset属性Tests */,
+				4991324C1C3B523300607DB0 /* UI07_ScrollView的inset属性UITests */,
+				499132261C3B523300607DB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		499132261C3B523300607DB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				499132251C3B523300607DB0 /* UI07_ScrollView的inset属性.app */,
+				4991323E1C3B523300607DB0 /* UI07_ScrollView的inset属性Tests.xctest */,
+				499132491C3B523300607DB0 /* UI07_ScrollView的inset属性UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		499132271C3B523300607DB0 /* UI07_ScrollView的inset属性 */ = {
+			isa = PBXGroup;
+			children = (
+				4991322B1C3B523300607DB0 /* AppDelegate.h */,
+				4991322C1C3B523300607DB0 /* AppDelegate.m */,
+				4991322E1C3B523300607DB0 /* ViewController.h */,
+				4991322F1C3B523300607DB0 /* ViewController.m */,
+				499132311C3B523300607DB0 /* Main.storyboard */,
+				499132341C3B523300607DB0 /* Assets.xcassets */,
+				499132361C3B523300607DB0 /* LaunchScreen.storyboard */,
+				499132391C3B523300607DB0 /* Info.plist */,
+				4991325B1C3B53EE00607DB0 /* 1.jpg */,
+				499132281C3B523300607DB0 /* Supporting Files */,
+			);
+			path = "UI07_ScrollView的inset属性";
+			sourceTree = "<group>";
+		};
+		499132281C3B523300607DB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				499132291C3B523300607DB0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		499132411C3B523300607DB0 /* UI07_ScrollView的inset属性Tests */ = {
+			isa = PBXGroup;
+			children = (
+				499132421C3B523300607DB0 /* UI07_ScrollView_inset__Tests.m */,
+				499132441C3B523300607DB0 /* Info.plist */,
+			);
+			path = "UI07_ScrollView的inset属性Tests";
+			sourceTree = "<group>";
+		};
+		4991324C1C3B523300607DB0 /* UI07_ScrollView的inset属性UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4991324D1C3B523300607DB0 /* UI07_ScrollView_inset__UITests.m */,
+				4991324F1C3B523300607DB0 /* Info.plist */,
+			);
+			path = "UI07_ScrollView的inset属性UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		499132241C3B523300607DB0 /* UI07_ScrollView的inset属性 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499132521C3B523300607DB0 /* Build configuration list for PBXNativeTarget "UI07_ScrollView的inset属性" */;
+			buildPhases = (
+				499132211C3B523300607DB0 /* Sources */,
+				499132221C3B523300607DB0 /* Frameworks */,
+				499132231C3B523300607DB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UI07_ScrollView的inset属性";
+			productName = "UI07_ScrollView的inset属性";
+			productReference = 499132251C3B523300607DB0 /* UI07_ScrollView的inset属性.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4991323D1C3B523300607DB0 /* UI07_ScrollView的inset属性Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499132551C3B523300607DB0 /* Build configuration list for PBXNativeTarget "UI07_ScrollView的inset属性Tests" */;
+			buildPhases = (
+				4991323A1C3B523300607DB0 /* Sources */,
+				4991323B1C3B523300607DB0 /* Frameworks */,
+				4991323C1C3B523300607DB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				499132401C3B523300607DB0 /* PBXTargetDependency */,
+			);
+			name = "UI07_ScrollView的inset属性Tests";
+			productName = "UI07_ScrollView的inset属性Tests";
+			productReference = 4991323E1C3B523300607DB0 /* UI07_ScrollView的inset属性Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		499132481C3B523300607DB0 /* UI07_ScrollView的inset属性UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499132581C3B523300607DB0 /* Build configuration list for PBXNativeTarget "UI07_ScrollView的inset属性UITests" */;
+			buildPhases = (
+				499132451C3B523300607DB0 /* Sources */,
+				499132461C3B523300607DB0 /* Frameworks */,
+				499132471C3B523300607DB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4991324B1C3B523300607DB0 /* PBXTargetDependency */,
+			);
+			name = "UI07_ScrollView的inset属性UITests";
+			productName = "UI07_ScrollView的inset属性UITests";
+			productReference = 499132491C3B523300607DB0 /* UI07_ScrollView的inset属性UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4991321D1C3B523300607DB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = lanou.com;
+				TargetAttributes = {
+					499132241C3B523300607DB0 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					4991323D1C3B523300607DB0 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 499132241C3B523300607DB0;
+					};
+					499132481C3B523300607DB0 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 499132241C3B523300607DB0;
+					};
+				};
+			};
+			buildConfigurationList = 499132201C3B523300607DB0 /* Build configuration list for PBXProject "UI07_ScrollView的inset属性" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4991321C1C3B523300607DB0;
+			productRefGroup = 499132261C3B523300607DB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				499132241C3B523300607DB0 /* UI07_ScrollView的inset属性 */,
+				4991323D1C3B523300607DB0 /* UI07_ScrollView的inset属性Tests */,
+				499132481C3B523300607DB0 /* UI07_ScrollView的inset属性UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		499132231C3B523300607DB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499132381C3B523300607DB0 /* LaunchScreen.storyboard in Resources */,
+				4991325C1C3B53EE00607DB0 /* 1.jpg in Resources */,
+				499132351C3B523300607DB0 /* Assets.xcassets in Resources */,
+				499132331C3B523300607DB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4991323C1C3B523300607DB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499132471C3B523300607DB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		499132211C3B523300607DB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499132301C3B523300607DB0 /* ViewController.m in Sources */,
+				4991322D1C3B523300607DB0 /* AppDelegate.m in Sources */,
+				4991322A1C3B523300607DB0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4991323A1C3B523300607DB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499132431C3B523300607DB0 /* UI07_ScrollView_inset__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499132451C3B523300607DB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4991324E1C3B523300607DB0 /* UI07_ScrollView_inset__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		499132401C3B523300607DB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 499132241C3B523300607DB0 /* UI07_ScrollView的inset属性 */;
+			targetProxy = 4991323F1C3B523300607DB0 /* PBXContainerItemProxy */;
+		};
+		4991324B1C3B523300607DB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 499132241C3B523300607DB0 /* UI07_ScrollView的inset属性 */;
+			targetProxy = 4991324A1C3B523300607DB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		499132311C3B523300607DB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				499132321C3B523300607DB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		499132361C3B523300607DB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				499132371C3B523300607DB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		499132501C3B523300607DB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		499132511C3B523300607DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		499132531C3B523300607DB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = "UI07_ScrollView的inset属性/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou.UI07-ScrollView-inset--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		499132541C3B523300607DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = "UI07_ScrollView的inset属性/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou.UI07-ScrollView-inset--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		499132561C3B523300607DB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UI07_ScrollView的inset属性Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou.UI07-ScrollView-inset--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI07_ScrollView的inset属性.app/UI07_ScrollView的inset属性";
+			};
+			name = Debug;
+		};
+		499132571C3B523300607DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UI07_ScrollView的inset属性Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou.UI07-ScrollView-inset--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI07_ScrollView的inset属性.app/UI07_ScrollView的inset属性";
+			};
+			name = Release;
+		};
+		499132591C3B523300607DB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UI07_ScrollView的inset属性UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou.UI07-ScrollView-inset--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UI07_ScrollView的inset属性";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4991325A1C3B523300607DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UI07_ScrollView的inset属性UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou.UI07-ScrollView-inset--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UI07_ScrollView的inset属性";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		499132201C3B523300607DB0 /* Build configuration list for PBXProject "UI07_ScrollView的inset属性" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499132501C3B523300607DB0 /* Debug */,
+				499132511C3B523300607DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		499132521C3B523300607DB0 /* Build configuration list for PBXNativeTarget "UI07_ScrollView的inset属性" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499132531C3B523300607DB0 /* Debug */,
+				499132541C3B523300607DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		499132551C3B523300607DB0 /* Build configuration list for PBXNativeTarget "UI07_ScrollView的inset属性Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499132561C3B523300607DB0 /* Debug */,
+				499132571C3B523300607DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		499132581C3B523300607DB0 /* Build configuration list for PBXNativeTarget "UI07_ScrollView的inset属性UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499132591C3B523300607DB0 /* Debug */,
+				4991325A1C3B523300607DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4991321D1C3B523300607DB0 /* Project object */;
+}

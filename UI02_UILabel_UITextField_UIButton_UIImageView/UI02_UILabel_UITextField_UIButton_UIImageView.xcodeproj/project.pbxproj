@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49BA66AA1C1FA00A00B5C1FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BA66A91C1FA00A00B5C1FF /* main.m */; };
+		49BA66AD1C1FA00B00B5C1FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BA66AC1C1FA00B00B5C1FF /* AppDelegate.m */; };
+		49BA66B01C1FA00B00B5C1FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BA66AF1C1FA00B00B5C1FF /* ViewController.m */; };
+		49BA66B31C1FA00B00B5C1FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49BA66B11C1FA00B00B5C1FF /* Main.storyboard */; };
+		49BA66B51C1FA00B00B5C1FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49BA66B41C1FA00B00B5C1FF /* Assets.xcassets */; };
+		49BA66B81C1FA00B00B5C1FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49BA66B61C1FA00B00B5C1FF /* LaunchScreen.storyboard */; };
+		49BA66C31C1FA00B00B5C1FF /* UI02_UILabel_UITextField_UIButton_UIImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BA66C21C1FA00B00B5C1FF /* UI02_UILabel_UITextField_UIButton_UIImageViewTests.m */; };
+		49BA66CE1C1FA00B00B5C1FF /* UI02_UILabel_UITextField_UIButton_UIImageViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BA66CD1C1FA00B00B5C1FF /* UI02_UILabel_UITextField_UIButton_UIImageViewUITests.m */; };
+		49BA66DC1C20031300B5C1FF /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49BA66DB1C20031300B5C1FF /* 1.jpg */; };
+		49BA66DE1C20032300B5C1FF /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49BA66DD1C20032300B5C1FF /* 2.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49BA66BF1C1FA00B00B5C1FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49BA669D1C1FA00A00B5C1FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49BA66A41C1FA00A00B5C1FF;
+			remoteInfo = UI02_UILabel_UITextField_UIButton_UIImageView;
+		};
+		49BA66CA1C1FA00B00B5C1FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49BA669D1C1FA00A00B5C1FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49BA66A41C1FA00A00B5C1FF;
+			remoteInfo = UI02_UILabel_UITextField_UIButton_UIImageView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49BA66A51C1FA00A00B5C1FF /* UI02_UILabel_UITextField_UIButton_UIImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UI02_UILabel_UITextField_UIButton_UIImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49BA66A91C1FA00A00B5C1FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49BA66AB1C1FA00A00B5C1FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49BA66AC1C1FA00B00B5C1FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49BA66AE1C1FA00B00B5C1FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		49BA66AF1C1FA00B00B5C1FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		49BA66B21C1FA00B00B5C1FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49BA66B41C1FA00B00B5C1FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49BA66B71C1FA00B00B5C1FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49BA66B91C1FA00B00B5C1FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49BA66BE1C1FA00B00B5C1FF /* UI02_UILabel_UITextField_UIButton_UIImageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UI02_UILabel_UITextField_UIButton_UIImageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49BA66C21C1FA00B00B5C1FF /* UI02_UILabel_UITextField_UIButton_UIImageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UI02_UILabel_UITextField_UIButton_UIImageViewTests.m; sourceTree = "<group>"; };
+		49BA66C41C1FA00B00B5C1FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49BA66C91C1FA00B00B5C1FF /* UI02_UILabel_UITextField_UIButton_UIImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UI02_UILabel_UITextField_UIButton_UIImageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49BA66CD1C1FA00B00B5C1FF /* UI02_UILabel_UITextField_UIButton_UIImageViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UI02_UILabel_UITextField_UIButton_UIImageViewUITests.m; sourceTree = "<group>"; };
+		49BA66CF1C1FA00B00B5C1FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49BA66DB1C20031300B5C1FF /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		49BA66DD1C20032300B5C1FF /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49BA66A21C1FA00A00B5C1FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49BA66BB1C1FA00B00B5C1FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49BA66C61C1FA00B00B5C1FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49BA669C1C1FA00A00B5C1FF = {
+			isa = PBXGroup;
+			children = (
+				49BA66A71C1FA00A00B5C1FF /* UI02_UILabel_UITextField_UIButton_UIImageView */,
+				49BA66C11C1FA00B00B5C1FF /* UI02_UILabel_UITextField_UIButton_UIImageViewTests */,
+				49BA66CC1C1FA00B00B5C1FF /* UI02_UILabel_UITextField_UIButton_UIImageViewUITests */,
+				49BA66A61C1FA00A00B5C1FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49BA66A61C1FA00A00B5C1FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49BA66A51C1FA00A00B5C1FF /* UI02_UILabel_UITextField_UIButton_UIImageView.app */,
+				49BA66BE1C1FA00B00B5C1FF /* UI02_UILabel_UITextField_UIButton_UIImageViewTests.xctest */,
+				49BA66C91C1FA00B00B5C1FF /* UI02_UILabel_UITextField_UIButton_UIImageViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49BA66A71C1FA00A00B5C1FF /* UI02_UILabel_UITextField_UIButton_UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				49BA66AB1C1FA00A00B5C1FF /* AppDelegate.h */,
+				49BA66AC1C1FA00B00B5C1FF /* AppDelegate.m */,
+				49BA66AE1C1FA00B00B5C1FF /* ViewController.h */,
+				49BA66DB1C20031300B5C1FF /* 1.jpg */,
+				49BA66DD1C20032300B5C1FF /* 2.jpg */,
+				49BA66AF1C1FA00B00B5C1FF /* ViewController.m */,
+				49BA66B11C1FA00B00B5C1FF /* Main.storyboard */,
+				49BA66B41C1FA00B00B5C1FF /* Assets.xcassets */,
+				49BA66B61C1FA00B00B5C1FF /* LaunchScreen.storyboard */,
+				49BA66B91C1FA00B00B5C1FF /* Info.plist */,
+				49BA66A81C1FA00A00B5C1FF /* Supporting Files */,
+			);
+			path = UI02_UILabel_UITextField_UIButton_UIImageView;
+			sourceTree = "<group>";
+		};
+		49BA66A81C1FA00A00B5C1FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49BA66A91C1FA00A00B5C1FF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49BA66C11C1FA00B00B5C1FF /* UI02_UILabel_UITextField_UIButton_UIImageViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				49BA66C21C1FA00B00B5C1FF /* UI02_UILabel_UITextField_UIButton_UIImageViewTests.m */,
+				49BA66C41C1FA00B00B5C1FF /* Info.plist */,
+			);
+			path = UI02_UILabel_UITextField_UIButton_UIImageViewTests;
+			sourceTree = "<group>";
+		};
+		49BA66CC1C1FA00B00B5C1FF /* UI02_UILabel_UITextField_UIButton_UIImageViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49BA66CD1C1FA00B00B5C1FF /* UI02_UILabel_UITextField_UIButton_UIImageViewUITests.m */,
+				49BA66CF1C1FA00B00B5C1FF /* Info.plist */,
+			);
+			path = UI02_UILabel_UITextField_UIButton_UIImageViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49BA66A41C1FA00A00B5C1FF /* UI02_UILabel_UITextField_UIButton_UIImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49BA66D21C1FA00B00B5C1FF /* Build configuration list for PBXNativeTarget "UI02_UILabel_UITextField_UIButton_UIImageView" */;
+			buildPhases = (
+				49BA66A11C1FA00A00B5C1FF /* Sources */,
+				49BA66A21C1FA00A00B5C1FF /* Frameworks */,
+				49BA66A31C1FA00A00B5C1FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UI02_UILabel_UITextField_UIButton_UIImageView;
+			productName = UI02_UILabel_UITextField_UIButton_UIImageView;
+			productReference = 49BA66A51C1FA00A00B5C1FF /* UI02_UILabel_UITextField_UIButton_UIImageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49BA66BD1C1FA00B00B5C1FF /* UI02_UILabel_UITextField_UIButton_UIImageViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49BA66D51C1FA00B00B5C1FF /* Build configuration list for PBXNativeTarget "UI02_UILabel_UITextField_UIButton_UIImageViewTests" */;
+			buildPhases = (
+				49BA66BA1C1FA00B00B5C1FF /* Sources */,
+				49BA66BB1C1FA00B00B5C1FF /* Frameworks */,
+				49BA66BC1C1FA00B00B5C1FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49BA66C01C1FA00B00B5C1FF /* PBXTargetDependency */,
+			);
+			name = UI02_UILabel_UITextField_UIButton_UIImageViewTests;
+			productName = UI02_UILabel_UITextField_UIButton_UIImageViewTests;
+			productReference = 49BA66BE1C1FA00B00B5C1FF /* UI02_UILabel_UITextField_UIButton_UIImageViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49BA66C81C1FA00B00B5C1FF /* UI02_UILabel_UITextField_UIButton_UIImageViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49BA66D81C1FA00B00B5C1FF /* Build configuration list for PBXNativeTarget "UI02_UILabel_UITextField_UIButton_UIImageViewUITests" */;
+			buildPhases = (
+				49BA66C51C1FA00B00B5C1FF /* Sources */,
+				49BA66C61C1FA00B00B5C1FF /* Frameworks */,
+				49BA66C71C1FA00B00B5C1FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49BA66CB1C1FA00B00B5C1FF /* PBXTargetDependency */,
+			);
+			name = UI02_UILabel_UITextField_UIButton_UIImageViewUITests;
+			productName = UI02_UILabel_UITextField_UIButton_UIImageViewUITests;
+			productReference = 49BA66C91C1FA00B00B5C1FF /* UI02_UILabel_UITextField_UIButton_UIImageViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49BA669D1C1FA00A00B5C1FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = lanou.com;
+				TargetAttributes = {
+					49BA66A41C1FA00A00B5C1FF = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					49BA66BD1C1FA00B00B5C1FF = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 49BA66A41C1FA00A00B5C1FF;
+					};
+					49BA66C81C1FA00B00B5C1FF = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 49BA66A41C1FA00A00B5C1FF;
+					};
+				};
+			};
+			buildConfigurationList = 49BA66A01C1FA00A00B5C1FF /* Build configuration list for PBXProject "UI02_UILabel_UITextField_UIButton_UIImageView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49BA669C1C1FA00A00B5C1FF;
+			productRefGroup = 49BA66A61C1FA00A00B5C1FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49BA66A41C1FA00A00B5C1FF /* UI02_UILabel_UITextField_UIButton_UIImageView */,
+				49BA66BD1C1FA00B00B5C1FF /* UI02_UILabel_UITextField_UIButton_UIImageViewTests */,
+				49BA66C81C1FA00B00B5C1FF /* UI02_UILabel_UITextField_UIButton_UIImageViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49BA66A31C1FA00A00B5C1FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BA66B81C1FA00B00B5C1FF /* LaunchScreen.storyboard in Resources */,
+				49BA66DC1C20031300B5C1FF /* 1.jpg in Resources */,
+				49BA66DE1C20032300B5C1FF /* 2.jpg in Resources */,
+				49BA66B51C1FA00B00B5C1FF /* Assets.xcassets in Resources */,
+				49BA66B31C1FA00B00B5C1FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49BA66BC1C1FA00B00B5C1FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49BA66C71C1FA00B00B5C1FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49BA66A11C1FA00A00B5C1FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BA66B01C1FA00B00B5C1FF /* ViewController.m in Sources */,
+				49BA66AD1C1FA00B00B5C1FF /* AppDelegate.m in Sources */,
+				49BA66AA1C1FA00A00B5C1FF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49BA66BA1C1FA00B00B5C1FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BA66C31C1FA00B00B5C1FF /* UI02_UILabel_UITextField_UIButton_UIImageViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49BA66C51C1FA00B00B5C1FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BA66CE1C1FA00B00B5C1FF /* UI02_UILabel_UITextField_UIButton_UIImageViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49BA66C01C1FA00B00B5C1FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49BA66A41C1FA00A00B5C1FF /* UI02_UILabel_UITextField_UIButton_UIImageView */;
+			targetProxy = 49BA66BF1C1FA00B00B5C1FF /* PBXContainerItemProxy */;
+		};
+		49BA66CB1C1FA00B00B5C1FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49BA66A41C1FA00A00B5C1FF /* UI02_UILabel_UITextField_UIButton_UIImageView */;
+			targetProxy = 49BA66CA1C1FA00B00B5C1FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49BA66B11C1FA00B00B5C1FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49BA66B21C1FA00B00B5C1FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49BA66B61C1FA00B00B5C1FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49BA66B71C1FA00B00B5C1FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49BA66D01C1FA00B00B5C1FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		49BA66D11C1FA00B00B5C1FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49BA66D31C1FA00B00B5C1FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = UI02_UILabel_UITextField_UIButton_UIImageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou.UI02-UILabel-UITextField-UIButton-UIImageView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49BA66D41C1FA00B00B5C1FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = UI02_UILabel_UITextField_UIButton_UIImageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou.UI02-UILabel-UITextField-UIButton-UIImageView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		49BA66D61C1FA00B00B5C1FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UI02_UILabel_UITextField_UIButton_UIImageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou.UI02-UILabel-UITextField-UIButton-UIImageViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI02_UILabel_UITextField_UIButton_UIImageView.app/UI02_UILabel_UITextField_UIButton_UIImageView";
+			};
+			name = Debug;
+		};
+		49BA66D71C1FA00B00B5C1FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UI02_UILabel_UITextField_UIButton_UIImageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou.UI02-UILabel-UITextField-UIButton-UIImageViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI02_UILabel_UITextField_UIButton_UIImageView.app/UI02_UILabel_UITextField_UIButton_UIImageView";
+			};
+			name = Release;
+		};
+		49BA66D91C1FA00B00B5C1FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UI02_UILabel_UITextField_UIButton_UIImageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou.UI02-UILabel-UITextField-UIButton-UIImageViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UI02_UILabel_UITextField_UIButton_UIImageView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		49BA66DA1C1FA00B00B5C1FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UI02_UILabel_UITextField_UIButton_UIImageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou.UI02-UILabel-UITextField-UIButton-UIImageViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UI02_UILabel_UITextField_UIButton_UIImageView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49BA66A01C1FA00A00B5C1FF /* Build configuration list for PBXProject "UI02_UILabel_UITextField_UIButton_UIImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49BA66D01C1FA00B00B5C1FF /* Debug */,
+				49BA66D11C1FA00B00B5C1FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49BA66D21C1FA00B00B5C1FF /* Build configuration list for PBXNativeTarget "UI02_UILabel_UITextField_UIButton_UIImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49BA66D31C1FA00B00B5C1FF /* Debug */,
+				49BA66D41C1FA00B00B5C1FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49BA66D51C1FA00B00B5C1FF /* Build configuration list for PBXNativeTarget "UI02_UILabel_UITextField_UIButton_UIImageViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49BA66D61C1FA00B00B5C1FF /* Debug */,
+				49BA66D71C1FA00B00B5C1FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49BA66D81C1FA00B00B5C1FF /* Build configuration list for PBXNativeTarget "UI02_UILabel_UITextField_UIButton_UIImageViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49BA66D91C1FA00B00B5C1FF /* Debug */,
+				49BA66DA1C1FA00B00B5C1FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49BA669D1C1FA00A00B5C1FF /* Project object */;
+}
